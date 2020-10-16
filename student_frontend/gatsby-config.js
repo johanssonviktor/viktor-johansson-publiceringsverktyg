@@ -10,8 +10,8 @@ module.exports = {
     description: "Portfolio page made in gatsby react and strapi",
     author: "Viktor Johansson",
     twitterUsername: "",
-    image: "/twitter-img.png",
-    siteUrl: "https://my-amazing-portflio.netlify.app",
+    image: "",
+    siteUrl: "https://viktor-johansson-publiceringsverktyg.netlify.app/",
   },
   plugins: [
     `gatsby-transformer-sharp`,
