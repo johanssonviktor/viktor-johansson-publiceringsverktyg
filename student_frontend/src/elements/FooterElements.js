@@ -1,7 +1,7 @@
 import styled from "styled-components"
 
+/*FOOTER  style components*/
 
-/*FOOTER */
 export const FooterWrapper = styled.footer`
   height: 9rem;
   background: var(--clr-primary-11);

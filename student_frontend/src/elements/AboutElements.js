@@ -1,5 +1,8 @@
 import styled from "styled-components"
 
+/// Style components for the about page
+
+// exports the style to the component
 export const AboutPageWrapper = styled.section`
   padding: 7rem 0;
   /* background: var(--clr-grey-10); */

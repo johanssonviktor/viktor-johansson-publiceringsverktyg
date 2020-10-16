@@ -1,5 +1,7 @@
 import styled from "styled-components"
 
+/// Style component for the aside.
+
 export const SideBarWrapper = styled.aside`
   background: #b1a296;
   position: fixed;
@@ -14,6 +16,7 @@ export const SideBarWrapper = styled.aside`
   transition: var(--transition);
   transform: translateX(-100%);
 
+  // Added !important so that this code will be run
   .show-sidebar {
     opacity: 1!important;
     transform: translateX(0)!important;

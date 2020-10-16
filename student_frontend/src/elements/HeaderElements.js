@@ -1,10 +1,11 @@
 import styled from "styled-components"
 
+// Style components for the header
+
 export const HeroWrapper = styled.header`
   margin-top: -5rem;
   padding-top: 5rem;
   height: 100vh;
-  /* background: var(--clr-primary-10); */
   background: var(--clr-primary-11);
   position: relative;
 
@@ -20,7 +21,6 @@ export const HeroWrapper = styled.header`
       left: 65%;
       right: 0;
       bottom: 0;
-      /* background: var(--clr-white); */
     }
 
     .hero-img {
@@ -48,8 +48,6 @@ export const ArticleWrapper = styled.div`
 `
 
 export const HeroInfo = styled.article`
-  /* background: var(--clr-primary-10); */
-  /* background: ; */
   color: whitesmoke;
 
   span {
@@ -85,7 +83,6 @@ export const HeroInfo = styled.article`
     color: white;
 
     &:hover {
-      /* color: darkgreen; */
       background: #8c7b6e;
     }
   }
@@ -94,6 +91,8 @@ export const HeroInfo = styled.article`
     margin-bottom: 0.5rem;
     margin-left: 0;
   }
+
+  // Some media queries for responsiveness
 
   @media screen and (min-width: 992px) {
     h4 {

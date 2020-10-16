@@ -1,5 +1,7 @@
 import styled from "styled-components"
 
+// Syle componets for the sections
+
 export const Section = styled.section`
   padding: 5rem 0;
   background: #e4e3e685;
