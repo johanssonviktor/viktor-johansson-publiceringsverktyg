@@ -4,19 +4,19 @@ export default [
   {
     id: 1,
     icon: <FaCode className="service-icon" />,
-    title: "web development",
-    text: `I offer many differnet web-development related services.`,
+    title: "Web utveckling",
+    text: `Jag erbjuder en mäng olika typer av web utevecklings lösningar för företag och privatpersoner.`,
   },
   {
     id: 2,
     icon: <FaSketch className="service-icon" />,
-    title: "web design",
-    text: `I offer many differnet web-design related services.`,
+    title: "Web design",
+    text: `Modern design, för en bra användarupplevelse.`,
   },
   {
     id: 3,
     icon: <FaAndroid className="service-icon" />,
     title: "app design",
-    text: `I offer many differnet app-design related services.`,
+    text: `Skräddarsydda lösnigar för företag.`,
   },
 ]
